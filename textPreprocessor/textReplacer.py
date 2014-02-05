@@ -5,7 +5,7 @@ configFile = open(sys.argv[1], 'r')
 symbolList = []
 
 for line in configFile:
-    symbol = line.split(';')
+    symbol = line.split(';', 1)
     symbol[1] = symbol[1][:-1] #remove trailing \n
     symbol[0] = symbol[0].replace('\\n', '\n'); #remove escaping \\n
     symbol[1] = symbol[1].replace('\\n', '\n'); #remove escaping \\n
