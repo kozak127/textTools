@@ -7,4 +7,4 @@ pdfScratcher - extracting text from PDF formatted in various forms (two columns,
 
 textPreprocessor - normalizing text to standard HTML (removing newlines and trailing '-' between words), highly configurable, supports many user-defined tags.
 
-Created with love, for miesiecznikchemik.pl and chemikinternational.com
+Created for miesiecznikchemik.pl and chemikinternational.com
